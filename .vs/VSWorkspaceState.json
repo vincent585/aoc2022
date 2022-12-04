@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AdventOfCode"
+    "\\AdventOfCode",
+    "\\AdventOfCodeDay2"
   ],
-  "SelectedNode": "\\AdventOfCode\\Program.cs",
+  "SelectedNode": "\\AdventOfCodeDay2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
