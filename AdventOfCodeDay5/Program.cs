@@ -33,8 +33,14 @@ foreach (var line in instructions)
         movedUnits.Add(stacks[moveFrom].Pop());
     }
 
-    foreach (var unit in movedUnits)
+    //foreach (var unit in movedUnits)
+    //{
+    //    stacks[moveTo].Push(unit);
+    //}
+
+    for (int i = movedUnits.Count - 1; i >= 0; i--)
     {
+        char unit = movedUnits[i];
         stacks[moveTo].Push(unit);
     }
 }
